@@ -1,0 +1,94 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap");
+
+
+
+.coffe-list{
+    background-image: url("img/background.jpg");
+    background-size : cover;
+}
+
+.coffe-item {
+    background-color: rgba(0, 0, 0, .7);  
+    border-radius:calc(75px / 2);
+    margin: 10% 0;
+    cursor:pointer;
+}
+.coffe-item: hover{
+  background-color: rgba(50, 50, 50, .7);    
+}
+
+.coffe-item img {
+    width: 5rem;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.coffe-item span {
+    color: white;
+    margin-left: 8%;
+    font-family: "Oswald";
+    font-family: "Pacifico";
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+/*.font {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Pacifico', cursive;
+    
+}
+*/
+.coffe-oper {
+    background-color:rgb(220, 220, 220);
+    padding:3%;
+}
+
+.display {
+    border: 2px solid darkgreen;
+     background-color:#ccbcaf;
+     letter-spacing: 5px;
+     font-size: 1rem;
+     padding:5%;
+     border-radius:5px;
+}
+
+.display span {
+  margin-left:5%;
+  font-family:"Oswald";
+}
+
+.cup img {
+    width: 100%;
+    margin-top:3%;
+}
+
+.atm-2 img {
+    width:100%
+}
+
+.change-box{
+    border:3px solid gray;
+    min-height: 100px;
+    box-sizing: border-box;
+    background-color: rgb(200, 200, 200);
+    border-radius:5px;
+}
+
+.progress-bar {
+    background-color: #654321;
+}
+.btn-primary {
+      background-color: #654321;
+}
+
+
+
+
+
+
+
+
+
+
+
