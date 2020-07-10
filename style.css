@@ -8,24 +8,24 @@
     background-size : cover;
 }
 
-.coffe-item {
+.coffee-item {
     background-color: rgba(0, 0, 0, .7);  
     border-radius:calc(75px / 2);
     margin: 10% 0;
     cursor:pointer;
 }
-.coffe-item: hover{
+.coffee-item: hover{
   background-color: rgba(50, 50, 50, .7);    
 }
 
-.coffe-item img {
+.coffee-item img {
     width: 5rem;
     background-color: white;
     border-radius: 50%;
     
 }
 
-.coffe-item span {
+.coffee-item span {
     color: white;
     margin-left: 8%;
     font-family: "Oswald";
@@ -58,7 +58,17 @@
   font-family:"Oswald";
 }
 
+.progress-bar {
+   transition:none; 
+    
+}
+
+
+
+
 .cup img {
+    display: none;
+    opacity:0;
     width: 100%;
     margin-top:3%;
 }
@@ -78,17 +88,33 @@
 .progress-bar {
     background-color: #654321;
 }
-.btn-primary {
-      background-color: #654321;
+.btn-primary{
+  background-color: #654321;  
 }
 
 
+.btn-primary:hover,
 
+.btn-primary:focus,
 
+.btn-primary:visited {
 
+background-color: #654321;
 
+color: white;
+}
+.btn-primary.focus,.btn-primary:focus {
+background-color: #654321;  
+}
+.btn-primary:visited {
 
-
-
+background-color: #654321;
+}
+.btn-primary:hover{
+ background-color: #745537!important;   
+}
+.btn {
+  background-color: #654321;  
+}
 
 
